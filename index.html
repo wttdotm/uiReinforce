@@ -1,0 +1,119 @@
+<html>
+<head>
+    <title>Dropdowns</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        function checkYear() {
+            let year = document.getElementById('year').value;
+            if(year === 'year'){
+                alert('Success');
+            }
+        }
+    </script>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    </style>
+</head>
+<body>
+  <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+    <h1>Aging Online</h1>
+    <form>
+        <label for="month">Month:</label>
+        <select id="month" style="max-height: 100px;">
+            <option disabled selected >Select</option>
+            <option>month</option>
+            <option>month</option>
+            <option>month</option>
+            <option>month</option>
+            <option>month</option>
+            <option>month</option>
+            <option>month</option>
+            <option>month</option>
+            <option>month</option>
+            <option>month</option>
+            <option>month</option>
+            <option>month</option>
+        </select>
+
+        <label for="day">Day:</label>
+        <select id="day" style="max-height: 100px;">
+            <option disabled selected >Select</option>
+            <option>day</option>
+            <option>day</option>
+            <option>day</option>
+            <option>day</option>
+            <option>day</option>
+            <option>day</option>
+            <option>day</option>
+            <option>day</option>
+            <option>day</option>
+            <option>day</option>
+            <option>day</option>
+            <option>day</option>
+            <option>day</option>
+            <option>day</option>
+            <option>day</option>
+            <option>day</option>
+            <option>day</option>
+            <option>day</option>
+            <option>day</option>
+            <option>day</option>
+            <option>day</option>
+            <option>day</option>
+            <option>day</option>
+            <option>day</option>
+            <option>day</option>
+            <option>day</option>
+            <option>day</option>
+            <option>day</option>
+            <option>day</option>
+            <option>day</option>
+            <option>day</option>
+        </select>
+
+        <label for="year">Year:</label>
+        <select id="year" style="max-height: 100px;">
+            <option disabled selected >Select</option>
+            <!-- Add 26 blank options here -->
+            <option> </option>
+            <option> </option>
+            <option> </option>
+            <option> </option>
+            <option> </option>
+            <option> </option>
+            <option> </option>
+            <option> </option>
+            <option> </option>
+            <option> </option>
+            <option> </option>
+            <option> </option>
+            <option> </option>
+            <option> </option>
+            <option> </option>
+            <option> </option>
+            <option> </option>
+            <option> </option>
+            <option> </option>
+            <option> </option>
+            <option> </option>
+            <option> </option>
+            <option> </option>
+            <option> </option>
+            <option> </option>
+            <option> </option>
+            <option>year</option>
+            <option> </option>
+            <option> </option>
+            <option> </option>
+            <option> </option>
+            <option> </option>
+            <option> </option>
+        </select>
+
+        <button id="submit" onclick="checkYear()">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
